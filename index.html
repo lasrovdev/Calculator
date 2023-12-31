@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="historial">
+      <button style="background:red; height:50px; width:49%" id="boton">Borrar todo</button>
+      <button onclick="volver()"  style="background:green; height:50px; width:49%;" id="boton2">Volver</button>
+  </div>
+  <center id="todo">
+    <div id="texto" onclick=''></div>
+    <div id="botones">
+      <div id="otros">
+        <button id="AC" onclick="ac()">AC</button>
+        <button id="DEL" onclick="del()">DEL</button>
+      </div>
+      <div id="signos">
+      <button id="mas" onclick="mas()">+</button>
+      <button id="menos" onclick="menos()">-</button>
+      <button id="division" onclick="division()">÷</button>
+      <button id="por" onclick="por()">×</button>
+      <button id="parent" onclick="parent()">()</button>
+      </div>
+      <div id="numerosyotros">
+        <button id="uno" onclick="uno()">1</button>
+        <button id="dos" onclick="dos()">2</button>
+        <button id="tres" onclick="tres()">3</button>
+        <button id="cuatro" onclick="cuatro()">4</button>
+        <button id="cinco" onclick="cinco()">5</button>
+        <button id="seis" onclick="seis()">6</button>
+        <button id="siete" onclick="siete()">7</button>
+        <button id="ocho" onclick="ocho()">8</button>
+        <button id="nueve" onclick="nueve()">9</button>
+        <button id="cero" onclick="cero()">0</button>
+        <button id="punto" onclick="punto()">.</button>
+        <button id="igual" onclick="igual()">=</button>
+      </div>
+    </div>
+    
+  </center>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
